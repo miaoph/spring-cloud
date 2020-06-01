@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="282e601f-876c-41c6-9dad-3d8fe6587ddb" name="Default Changelist" comment="" />
+    <list default="true" id="282e601f-876c-41c6-9dad-3d8fe6587ddb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/order-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/miaoph/cn/OrderEurekaClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/miaoph/cn/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-cons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-cons/src/main/java/com/miaoph/cn/ProductEurekaConsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-cons/src/main/java/com/miaoph/cn/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-cons/src/main/java/com/miaoph/cn/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-cons/src/main/java/com/miaoph/cn/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-cons/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -18,19 +37,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1ciI3PYgbkLJztwxMCGFhKM4wiw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.miaoph.cn.controller" />
+      <recent name="com.miaoph.cn" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/product-cons/src/main/resources" />
+      <recent name="$PROJECT_DIR$/order-server/src/main/java/com/miaoph/cn/controller" />
+      <recent name="$PROJECT_DIR$/order-server/src/main/java" />
+      <recent name="$PROJECT_DIR$/order-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud-eureka/src/main/resources" />
     </key>
   </component>
@@ -46,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.OrderEurekaClientApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-eureka" />
       <extension name="coverage">
@@ -60,8 +104,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoph.cn.OrderEurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductEurekaConsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="product-cons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.miaoph.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoph.cn.ProductEurekaConsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.OrderEurekaClientApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.ProductEurekaConsApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ProductEurekaConsApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -76,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591004786505</updated>
-      <workItem from="1591004790146" duration="1178000" />
+      <workItem from="1591004790146" duration="7289000" />
     </task>
     <servers />
   </component>

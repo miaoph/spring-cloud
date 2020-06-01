@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-eureka" />
+        <module name="order-server" />
+        <module name="product-cons" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="order-server" options="-parameters" />
+      <module name="product-cons" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
     </option>
   </component>

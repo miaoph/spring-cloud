@@ -32,3 +32,4 @@ build/
 .vscode/
 
 /target/
+将删除 springcloud-eureka/src/test/
