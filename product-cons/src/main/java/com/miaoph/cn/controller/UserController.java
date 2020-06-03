@@ -16,4 +16,11 @@ public class UserController {
     public String queryUser() {
         return userService.queryUser();
     }
+
+    @RequestMapping("/queryHystrix")
+    public String queryHystrix() {
+        return userService.queryHystrix();
+    }
+
+
 }

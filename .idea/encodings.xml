@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/order-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product-cons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-eureka" charset="UTF-8" />
   </component>
 </project>
