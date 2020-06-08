@@ -92,7 +92,11 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>1.4.0</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

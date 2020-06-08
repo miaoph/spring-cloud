@@ -8,6 +8,9 @@
     杀掉进程
       kill -9 PID
 
+apollo 配置中心  vm 运行参数
+-Denv=DEV  -Dapollo.meta=http://127.0.0.1:8080
+
 
 
 

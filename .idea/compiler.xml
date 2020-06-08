@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-feign" />
         <module name="springcloud-dashboard" />
-        <module name="order-server" />
         <module name="springcloud-eureka" />
+        <module name="order-server" />
         <module name="product-cons" />
       </profile>
     </annotationProcessing>
