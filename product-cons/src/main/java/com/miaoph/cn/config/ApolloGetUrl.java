@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@EnableApolloConfig(value = {"TEST1.springcloudurl"})
+//@EnableApolloConfig(value = {"TEST1.springcloudurl"})
 @Data
 public class ApolloGetUrl {
 
-    @Value("${test-local-apollo}")
+//    @Value("${test-local-apollo}")
     private String testLocalApollo;
 }

@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="282e601f-876c-41c6-9dad-3d8fe6587ddb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/product-cons/src/main/java/com/miaoph/cn/config/ApolloGetUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-cons/src/main/java/com/miaoph/cn/controller/ApolloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/miaoph/cn/SpringCloudZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/miaoph/cn/filter/AccessFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/miaoph/cn/filter/ErrorFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/miaoph/cn/filter/PreLogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/miaoph/cn/filter/RoutingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/src/main/java/com/miaoph/cn/OrderEurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/java/com/miaoph/cn/OrderEurekaClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-cons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-cons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-cons/src/main/java/com/miaoph/cn/service/TeacherServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-cons/src/main/java/com/miaoph/cn/service/TeacherServiceFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-cons/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-cons/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-cons/src/main/java/com/miaoph/cn/config/ApolloGetUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-cons/src/main/java/com/miaoph/cn/config/ApolloGetUrl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/product-cons/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-zuul/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,26 +63,26 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.miaoph.cn" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/product-cons/src/main/resources" />
-      <recent name="$PROJECT_DIR$/springcloud-feign/src/main/java/com/miaoph/cn/bean" />
-      <recent name="$PROJECT_DIR$/springcloud-feign/src/main/java/com/miaoph/cn/api" />
-      <recent name="$PROJECT_DIR$/springcloud-dashboard/src/main/resources" />
-      <recent name="$PROJECT_DIR$/order-server/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.miaoph.cn.controller" />
-      <recent name="com.miaoph.cn" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/order-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/product-cons/src/main/resources" />
       <recent name="$PROJECT_DIR$/order-server/src/main/java/com/miaoph/cn/health" />
       <recent name="$PROJECT_DIR$/springcloud-eureka/src/main/java" />
       <recent name="$PROJECT_DIR$/order-server/src/main/java/com/miaoph/cn/controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.miaoph.cn" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.miaoph.cn" />
+      <recent name="com.miaoph.cn.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud-zuul/src/main/resources" />
+      <recent name="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/miaoph/cn" />
+      <recent name="$PROJECT_DIR$/product-cons/src/main/resources" />
+      <recent name="$PROJECT_DIR$/springcloud-feign/src/main/java/com/miaoph/cn/bean" />
+      <recent name="$PROJECT_DIR$/springcloud-feign/src/main/java/com/miaoph/cn/api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,16 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductEurekaConsApplication：8093">
-    <configuration name="TestHystrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-cons" />
-      <option name="PACKAGE_NAME" value="com.miaoph.cn" />
-      <option name="MAIN_CLASS_NAME" value="com.miaoph.cn.TestHystrix" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SpringCloudZuulApplication">
     <configuration name="TestHystrix.hystrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product-cons" />
       <option name="PACKAGE_NAME" value="com.miaoph.cn" />
@@ -169,21 +163,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringCloudZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.miaoph.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoph.cn.SpringCloudZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.TestHystrix" />
       <item itemvalue="JUnit.TestHystrix.hystrixTest" />
       <item itemvalue="Spring Boot.OrderEurekaClientApplication：8099" />
       <item itemvalue="Spring Boot.DashBoardApplication" />
       <item itemvalue="Spring Boot.EurekaApplication：8090" />
       <item itemvalue="Spring Boot.ProductEurekaConsApplication：8093" />
+      <item itemvalue="Spring Boot.SpringCloudZuulApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringCloudZuulApplication" />
         <item itemvalue="Spring Boot.ProductEurekaConsApplication：8093" />
-        <item itemvalue="Spring Boot.DashBoardApplication" />
         <item itemvalue="Spring Boot.EurekaApplication：8090" />
+        <item itemvalue="Spring Boot.DashBoardApplication" />
         <item itemvalue="JUnit.TestHystrix.hystrixTest" />
-        <item itemvalue="JUnit.TestHystrix" />
       </list>
     </recent_temporary>
   </component>
@@ -195,22 +202,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2f541b1e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9cb4eac0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2f541b1e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@88df242d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9cb4eac0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@57c2e59c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2f541b1e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5255fa26" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2f541b1e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@34634fb8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9cb4eac0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@10fae012" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -238,7 +240,9 @@
       <workItem from="1591514824346" duration="686000" />
       <workItem from="1591522616000" duration="1678000" />
       <workItem from="1591581697163" duration="1431000" />
-      <workItem from="1591601062481" duration="7664000" />
+      <workItem from="1591601062481" duration="8519000" />
+      <workItem from="1591620608101" duration="211000" />
+      <workItem from="1591668698193" duration="3275000" />
     </task>
     <servers />
   </component>
